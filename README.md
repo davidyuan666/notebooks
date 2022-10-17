@@ -46,4 +46,9 @@ with tf.Session(graph=tf.get_default_graph()) as sess:
 
 ```
 
+# Tensor 概念
+Tensor表示一个变量，是基本的计算单元，其中每一个tensor包含name, value, type 和 dimension信息，将其理解成object
+
+
+
 
