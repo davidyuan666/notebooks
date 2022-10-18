@@ -52,4 +52,5 @@ Tensor表示一个变量，是基本的计算单元，其中每一个tensor包�
 
 
 # 使用ghostScript对PDF文档进行修复
+由于pdf是由postscript进行渲染的，那么通过ghostscript工具可以对pdf文档进行编辑处理，包括转变为image等操作
 
