@@ -53,4 +53,9 @@ Tensor表示一个变量，是基本的计算单元，其中每一个tensor包�
 
 # 使用ghostScript对PDF文档进行修复
 由于pdf是由postscript进行渲染的，那么通过ghostscript工具可以对pdf文档进行编辑处理，包括转变为image等操作
-
+ImageMagick是第三方的图片处理软件，功能要比GD强大。建议两者都安装，并不冲突。
+imagick是php的一个扩展模块，它调用ImageMagick提供的API来进行图片的操作。
+Ghostscript是一套建基于Adobe、PostScript及可移植文档格式（PDF）的页面描述语言等而编译成的免费软件。
+Ghostscript最初是以商业软件形式在PC市场上发售，并称之为“GoScript”。但由于速度太慢（半小时一版A4），销量极差。后来有心人买下了版权，并改在Linux上开发，成为了今日的Ghostscript。
+已经从Linux版本移植到其他操作系统，如其他Unix、Mac OS X、VMS、Windows、OS/2和Mac OS classic。
+ImageMagick无法直接实现pdf文档到图片的转换，需要借助于gostscript软件包
